@@ -1,0 +1,9 @@
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-container__item-button > .dropdown-toggle {
+    box-sizing: border-box;
+    width: 130px;
+}

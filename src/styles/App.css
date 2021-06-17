@@ -1,0 +1,48 @@
+.App {
+  background: url(../../src/assets/Background.jpg);
+  background-color: #282c34;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+.App-header {
+  color: white;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#App-title {
+  font-size: 40px;
+  margin: 10px 10px 0px 10px;
+  text-shadow:
+  -2.2px -2.2px 0 #000,
+    2.2px -2.2px 0 #000,
+      -2.2px 2.2px 0 #000,
+        2.2px 2.2px 0 #000;
+}
+
+#App-line {
+  background-color: white;
+  border-radius: 5px;
+  height: 2px;
+  margin: 3px;
+  width: 85%;
+}
+
+footer {
+  background-color: #282c34aa;
+  color: white;
+  font-size: 17px;
+  margin: 0px;
+  text-shadow:
+  -1px -1px 0 #000,
+    1px -1px 0 #000,
+      -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
